@@ -1,0 +1,559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroug",
+				"background-image"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"tab",
+				"table"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index2.html",
+			"settings":
+			{
+				"buffer_size": 5565,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<div class=\"cityscape\">\n	<div class=\"container\">\n		<img src=\"../thaiMovers/img/cityscape3.jpg\" alt=\"\">\n	</div>\n				<div class=\"pageheader-content\">\n				</div>\n	</div>\n</div>	",
+			"settings":
+			{
+				"buffer_size": 174,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 121220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_/css/custom2.css",
+			"settings":
+			{
+				"buffer_size": 4147,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!-- Custom Reset -->\n\n\nhtml, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed, \nfigure, figcaption, footer, header, hgroup, \nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n	margin: 0;\n	padding: 0;\n	border: 0;\n	font-size: 100%;\n	font: inherit;\n	vertical-align: baseline;\n}\n\nhtml {\n	font-family: \"freight-sans-pro\", \"Open Sans\", Helvetica, Arial, sans-serif;\n}\n\nbody {\n	font-family: \"freight-sans-pro\", \"Open Sans\", Helvetica, Arial, sans-serif;\n	display: block;\n}\n\n.caret {\n	margin-left: 7px;\n}\n\n.cityscape {\n	margin-top: 61px;\n	position: relative;\n\n}\n\n.cityscape img {\n	width: 100%;\n	margin: 0 auto;\n	padding: 0;\n	height: auto;\n}\n\n.cityscape .container  {\n	width: 100%;\n	padding:0;\n	margin: 0 auto;\n}\n\n.clearfix {\n	clear: both;\n}\n\n.clearfix:before, .clearfix:after {\n	display: table;\n	content: \"\";\n	line-height: 0;\n}\n\ndiv {\n	display: block;\n}\n\n/*\n * global/footer.less\n * ----------------------------------------------------------------\n */\n.gray {\n  background-color: #595959;\n}\n.footer {\n  position: relative;\n  margin: 0 auto;\n  padding-bottom: 20px;\n}\n.footer-link-home {\n  display: block;\n  float: left;\n  width: 61px;\n  font-size: 61px;\n  line-height: 61px;\n  margin-top: -1px;\n  color: #fff;\n  opacity: 0.8;\n  filter: alpha(opacity=80);\n  -webkit-transition: opacity 0.2s ease-out;\n  -moz-transition: opacity 0.2s ease-out;\n  -o-transition: opacity 0.2s ease-out;\n  transition: opacity 0.2s ease-out;\n}\n.footer-link-home:active,\n.footer-link-home:hover {\n  color: #fff;\n  opacity: 1;\n  filter: alpha(opacity=100);\n}\n.footer-links-social {\n  float: right;\n  margin-top: 18px;\n  font-size: 16px;\n}\n.footer-links-social li {\n  float: left;\n  margin-left: 0.7em;\n}\n.footer-links-social a {\n  padding: 0.5em;\n  -webkit-border-radius: 1.1em;\n  -moz-border-radius: 1.1em;\n  border-radius: 1.1em;\n  border: 1px solid #fff;\n  display: block;\n  color: #fff;\n}\n.footer-links-social a:hover {\n  background-color: #fff;\n  color: #595959;\n  text-decoration: none;\n}\n.footer-links-social .qi:before {\n  width: 1em;\n  height: 1em;\n  display: block;\n  text-align: center;\n  line-height: 1em;\n}\n.footer-links {\n  margin-top: -5%;\n  margin-bottom: 10%;\n}\n.footer-links h3 {\n  font-size: 18px;\n  color: #DDD;\n  line-height: 2.3em;\n}\n.footer-links h4 {\n  margin-bottom: 0.72em;\n  color: #fff;\n}\n.footer-links h4 a {\n  padding: 0.3em 0;\n  color: #fff;\n}\n.footer-links h4 a:hover {\n  color: #fff;\n  text-decoration: none;\n}\n.footer-links .nav-stacked li a {\n  color: #4D4D4F;\n  text-decoration: none;\n}\n.footer-links .nav-stacked li a:hover {\n  color: #fff;\n  text-decoration: none;\n}\n.footer-links .nav .active a {\n  color: #4D4D4F;\n}\n.footer-links .nav-header .nav-header-text {\n  color: #fff;\n}\n.footer-links .menu-support a {\n  display: inline-block;\n  *display: inline;\n  /* IE7 inline-block hack */\n  *zoom: 1;\n  margin: 10px 18px;\n  padding: 0;\n  color: #cccccc;\n  font-size: 20px;\n  line-height: 1.1;\n}\n@media screen and (min-width: 768px) {\n  .footer-links .menu-support a {\n    margin: 10px 0;\n  }\n}\n.footer-bottom {\n  *zoom: 1;\n  text-align: center;\n  margin-top: 2em;\n}\n.footer-bottom:before,\n.footer-bottom:after {\n  display: table;\n  content: \"\";\n  line-height: 0;\n}\n.footer-bottom:after {\n  clear: both;\n}\n.footer-bottom:before,\n.footer-bottom:after {\n  display: table;\n  content: \"\";\n  line-height: 0;\n}\n.footer-bottom:after {\n  clear: both;\n}\n.footer-bottom .copyright {\n  font-size: 14px;\n  color: #8c8c8c;\n}\n.footer-bottom a {\n  color: #8c8c8c;\n  font-size: 14px;\n}\n.footer-bottom a:active,\n.footer-bottom a:hover {\n  color: #b3b3b3;\n  text-decoration: underline;\n}\n.footer-bottom .footer-links-legal li {\n  padding: 0 0.5em;\n}\n@media screen and (min-width: 830px) {\n  .footer-bottom {\n    text-align: left;\n  }\n  .footer-bottom .copyright {\n    float: left;\n  }\n  .footer-bottom .footer-links-legal {\n    float: right;\n  }\n  .footer-bottom .footer-links-legal li {\n    padding-left: 1em;\n    padding-right: 0;\n  }\n}\n.footer-bottom .new-copyright {\n  font-size: 14px;\n  color: #8c8c8c;\n  float: right;\n}\n.footer-bottom .footer-legal-container {\n  float: right;\n}\n.footer-bottom .footer-legal-container li a {\n  text-decoration: none;\n}\n.footer-bottom .footer-legal-container li a:hover {\n  text-decoration: none;\n  color: #fff;\n}\n\n\n\n\n\n.gray a {\n	color: #fff;\n}\n\n.gray .copyright {\n	color: #fff;\n}\n\n.list-unstyled {\n	padding-left: 0;\n	list-style: none;\n}\n\n.navbar-brand {\n	padding: 12px 30px 0 15px;\n	float: left;\n}\n\n.navbar-nav li a{\n	line-height:60px;\n	height: 60px;\n	padding-top: 0;\n	color:#777;\n	font-size:17px;\n}\n\n.navbar {\n	background-color: #FFFFFF;\n}\n\n.navbar .nav .dropdown-menu a, .navbar .nav .dropdown-menu .dropwdown-header {\n	line-height:30px;\n	height:30px;\n}\n.navbar .navbar-default .navbar-fixed-top {\n	padding-bottom: 100px;\n}\n\n.on-right {\n	float: right;\n}\n\n.page-header-content {\n	width: 100%;\n	position: relative;\n	left: 100px;\n	top:50px;\n}\n\n.page-section-lead p{\n	width: 100%;\n	line-height:1em;\n	text-align: center;\n	font-size: 42px;\n	font-weight: 200;\n	color: #777;\n}\n\n.page-section-lead .container{\n	margin-top: 25px;\n	margin-bottom:75px;\n	width: 100%;\n	max-width: 900px;\n}\n.purple {\n	color: purple;\n}\n\n.purple-bold {\n	color: purple;\n	font-weight: 400;\n}\n\n.section-services {\n	padding: 2.5% 0 2.5% 0;\n	background: #EDECEC;\n	width:100%;\n}\n\n.section-services .container {\n	padding-top: 3em;\n	text-align: center;\n	color: 717473;\n	padding: 0;\n\n}\n\n.section-services .container h2 {\n	font-size: 48px;\n	font-weight: 300;\n	color: purple;\n	padding-bottom: 3.5%;\n}\n\n.section-services .icon {\n	margin: 0 auto;\n	border: 2px solid #ddd;\n	border-radius: 50%;\n	width: 122px;\n	height: 122px;\n	background: #fff;\n}\n\n.section-services .icon:hover {\n	border: 2px solid #ed5524;\n}\n\n.section-services .row {\n	padding-left: 0;\n}\n\n.section-services .fix-background {\n	background-color: #fafafa;\n	height: 120px;\n	display: none;\n	border-top: 2px solid #ddd;\n	border-bottom: 2px solid #ddd;\n	padding: 5% 0;\n	margin-top: -239px;\n}\n\n.section-services .item-icon {\n	width: 100%;\n	float: left;\n	padding-top: 5%;\n}\n\n.section-services .item-icon i {\n	color: #79b7b7;\n	font-size: 50px;\n	text-align: center;\n	vertical-align: middle;\n	margin-top: 0.35em;\n	display: block;\n}\n\n.section-services .item-icon a {\n	text-decoration: none;\n}\n\n.section-services .item-icon .content .title {\n	text-decoration: none;\n}\n\n\n\n.image {\n    position:relative;\n}\n.slogan {\n	left:0;\n    position:absolute;\n    text-align:center;\n    top: 30px;\n    width: 100%;\n    color:white;\n}\n.btn-request {\n    width:50%;\n    text-align:center;\n}\n",
+			"file": "_/css/custom3.css",
+			"file_size": 7246,
+			"file_write_time": 130621626092703433,
+			"settings":
+			{
+				"buffer_size": 6851,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n<!doctype html>\n<html>\n\n<head>\n	<meta charset=\"utf-8\">\n	<title>Thai Movers</title>\n\n<!-- Fonts -->\n	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>\n	<script src=\"//use.typekit.net/jjr8qfn.js\"></script>\n	<script>try{Typekit.load();}catch(e){}</script>\n	<link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n\n\n<!-- Boostrap Core CSS -->\n	<link href=\"_/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n<!-- Custom CSS -->\n	<link href=\"_/css/custom2.css\" rel=\"stylesheet\">\n</head>\n\n<body>\n<!-- Navigation -->\n<nav class=\"navbar navbar-default navbar-fixed-top\" role='navigation'>\n	<div class=\"container\">\n		<div class=\"navbar-header\">\n			<button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n				<span class=\"sr-only\">Toggle navigation</span>\n				<span class=\"icon-bar\"></span>\n				<span class=\"icon-bar\"></span>\n				<span class=\"icon-bar\"></span>\n			</button>\n			<a class=\"navbar-brand\" href=\"#\"><img alt=\"Brand\" src=\"../thaimovers/img/logo3.jpg\"></a>\n		</div>\n\n		<!-- Nav links -->\n		<div class=\"collapse navbar-collapse\" id=\"collapse\">\n			<ul class=\"nav navbar-nav\">\n				<li class=\"dropdown\">\n					<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">About Us<span class=\"caret\"></span></a>\n						<ul class=\"dropdown-menu\" role=\"menu\">\n							<li><a href=\"\">Company Profile</a></li>\n							<li><a href=\"\">Our Philosophy</a></li>\n							<li><a href=\"\">Customer Testimonials</a></li>\n							<li><a href=\"\">Careers</a></li>\n							<li><a href=\"\">Contact Us</a></li>\n						</ul>\n				</li>\n				<li class=\"dropdown\">\n					<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Our Services<span class=\"caret\"></span></a>\n						<ul class=\"dropdown-menu\" role=\"menu\">\n							<li><a href=\"\">Local Moves</a></li>\n							<li><a href=\"\">International Moves</a></li>\n							<li><a href=\"\">Storage</a></li>\n							<li><a href=\"\">Packing Materials</a></li>\n						</ul>\n				</li>\n				<li class=\"dropdown\">\n					<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Resources<span class=\"caret\"></span></a>\n						<ul class=\"dropdown-menu\" role=\"menu\">\n							<li><a href=\"\">FAQ</a></li>\n							<li><a href=\"\">Housing</a></li>							\n						</ul>\n				</li>\n			</ul>\n\n			<ul class=\"nav navbar-nav on-right\">\n				<li class=\"dropdown\">\n				<a href=\"#\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Language<span class=\"caret\"></span></a>\n						<ul class=\"dropdown-menu\" role=\"menu\">\n							<li><a href=\"\">English</a></li>\n							<li><a href=\"\">Thai</a></li>\n							<li><a href=\"\">Japanese</a></li>\n						</ul>\n				</li>\n				<li><a href=\"#\">Login</a></li>\n				<li id=\"phone\"><a href=\"#\"><span class=\"glyphicon glyphicon-earphone\"></span id=\"telephone-number\">+66-2-661-5165</p></a></li>\n			</ul>\n		</div>\n	</div>\n</nav>\n\n\n<div class=\"cityscape\">\n	<div class=\"image\">\n		<img src=\"../thaiMovers/img/cityscape3.jpg\" alt=\"\" class=\"img-responsive\" alt=\"Responsive image\">\n	 <div class=\"slogan\">\n	    <h1>Moving. Made. Easy.</h1>\n	 	<a href=\"http://success.qualtrics.com/request-pricing-ee-iframe.html\" class=\"FancyIframe NoBorder btn btn-xl btn-block btn-success\" target=\"_blank\" \n	 	onclick=\"ga('send', 'event', 'Employee Engagement', 'click', 'Request-Estimating')\">Request InstanceQuote</a>\n	 </div>\n\n  \n	</div>\n		\n	</div>\n</div>	\n	\n</div>\n<div class=\"page-section-lead\">\n	<div class=\"container\">\n		<p>We're proud to be Thailand's leading provider of low-cost <span class=\"purple-bold\">moving and storage</span> solutions.</p>	\n		<br>\n		<p><span class=\"fa fa-sort-up purple\"></span></p>\n		<p>That means you'll get <span class=\"purple-bold\">great service</span> <span style=\"text-decoration:underline\">and</span> a <span class=\"purple-bold\">great price</span>!</p>\n	</div>\n</div>\n\n	<section id=\"container\" class=\"section-services\">\n		<div class=\"container\">\n			<h2>What We Can Do for You</h2>\n				<div class=\"row\">\n					<div class=\"item-icon text-center tile tile-expanded tile-active\">\n						<a href=\"#\" onclick=\"ga ('send', 'event', 'Homepage', 'click', 'Services')\">\n						<div class=\"icon animated fadeInUp delayp1\">\n							<i class=\"tm tm-ribbon-alt-md\"></i>\n						</div>\n					<div class=\"content\">\n						<h3 class=\"title\">International<br>Moves</h3>\n					</div>\n					<div class=\"triangle\"></div>\n						</a>\n						<section id=\"intl-moves\" class=\"title-preview\">\n							<div class=\"container\">\n								<div class=\"col-7 first-content\">\n									<h3><font>International Moves</font></h3>\n									<p>Some more text.</p>\n								</div>\n							</div>\n						</section>\n					</div>\n				</div>\n		</div>\n	</section>\n\n	\n\n	 <!-- Site Footer -->\n      <footer class=\"footer gray\">\n        <div class=\"container\">\n          <div class=\"footer-top clearfix\">\n            <!-- Logo -->\n            <a class=\"footer-link-home\" href=\"http://www.qualtrics.com\"><i class=\"qi qi-qualtrics-q\"></i></a>\n            <!-- Social Links -->\n            <ul class=\"footer-links-social list-unstyled\">\n              <li>\n                <a href=\"https://www.facebook.com/Qualtrics\" target=\"_blank\"><span class=\"sr-only\">Facebook</span><i class=\"fa fa-facebook\"></i></a>\n              </li>\n              <li>\n                <a href=\"https://twitter.com/Qualtrics\" target=\"_blank\"><span class=\"sr-only\">Twitter</span><i class=\"fa fa-twitter\"></i></a>\n              </li>\n              <li>\n                <a href=\"http://www.linkedin.com/company/qualtrics\" target=\"_blank\"><span class=\"sr-only\">LinkedIn</span><i class=\"fa fa-linkedin\"></i></a>\n              </li>\n              <li>\n                <a href=\"https://plus.google.com/+qualtrics/\" target=\"_blank\"><span class=\"sr-only\">Google+</span><i class=\"fa fa-google-plus\"></i></a>\n              </li>\n            </ul>\n          </div>\n          <!-- /.footer-top -->\n\n          \n            <!-- Legal Nav -->\n          \n              <ul class=\"footer-links list-unstyled row\">\n<li class=\"col-sm-3 col-md-2 menu-item-services menu-parent\">\n  <a href=\"http://www.qualtrics.com/terms-of-service/\"><h4>About Us</h4></a>\n</li>\n<li class=\"col-sm-3 col-md-2 menu-item-resources menu-parent\">\n  <a href=\"http://www.qualtrics.com/terms-of-service/\"><h4>Our Services</h4></a>\n</li>\n<li class=\"col-sm-3 col-md-2 menu-item-company menu-parent\">\n  <a href=\"http://www.qualtrics.com/terms-of-service/\"><h4>Resources</h4></a>\n</li>\n</ul>\n      \n<div class=\"footer-bottom\">\n            <!-- Copyright -->\n            <div class=\"new-copyright\">\n            \n              <div class=\"footer-legal-container\">\n                <ul class=\"list-inline\">\n<li><a href=\"#\">© 2014 ThaiMovers.com</a></li>\n<li><a href=\"http://www.qualtrics.com/terms-of-service/\">Terms of Service</a></li>\n<li><a href=\"http://www.qualtrics.com/privacy-statement/\">Privacy Statement</a></li>\n<li><a href=\"http://www.qualtrics.com/security-statement/\">Security Statement</a></li>\n</ul>\n              </div>\n            </div>\n          </div>\n          <!-- /.footer-bottom -->\n        </div>\n      </footer>\n\n\n\n\n\n\n<!-- javascript -->\n	<script src=\"../js/jquery-2.1.1.min.js\"></script>\n	<script src=\"../js/bootstrap.min.js\"></script>\n</body>\n</html>\n",
+			"file": "index3.html",
+			"file_size": 7368,
+			"file_write_time": 130621616631132262,
+			"settings":
+			{
+				"buffer_size": 7166,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/Chrome.sublime-build",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/thaiMovers",
+		"/C/wamp/www/thaiMovers/_",
+		"/C/wamp/www/thaiMovers/_/css",
+		"/C/wamp/www/thaiMovers/img"
+	],
+	"file_history":
+	[
+		"/C/wamp/www/thaiMovers/img/cityscape3.jpg",
+		"/C/Users/Bill/Desktop/thai_movers/index-bootstrap.html",
+		"/C/wamp/www/thaiMovers/_/css/custom.css",
+		"/C/wamp/www/thaiMovers/index.html",
+		"/C/Users/Bill/Desktop/reset.css",
+		"/D/My Websites/2. CSS/bbc.html",
+		"/D/My Websites/2. CSS/index.html",
+		"/D/My Websites/1. HTML/index.html",
+		"/D/My Websites/1. HTML/helloworld.html",
+		"/D/My Websites/1. HTML/index",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/User/HTML.sublime-settings",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_04/04_06/overflow.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_04/04_05/clipping.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_04/04_04/stacking.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_04/04_03/fixed.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_04/04_02/absolute.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_04/04_01/relative.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_10/_css/main.css",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_09/_assets/background.txt",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_09/columns.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_09/columns_faux.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_08/height.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_07/3col_v3.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_07/3col_v2.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_07/3col_v1.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_06/2col_v3.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_06/2col_v2.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_06/2col_v1.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_05/inline.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_04/clearfix.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_03/containing.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_02/clearing.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_03/03_01/float.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_11/index.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_09/responsive.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_09/fluid.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_09/fixed.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_08/reset.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_07/display.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_06/normal.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_05/percentages.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_05/finished_files/percentages.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_04/em_values.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_03/margin-collapse.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_02/dimensions.htm",
+		"/C/Users/Bill/Desktop/Exercise Files (CSS Page Layouts)/Chapter_01/01_02/finished_files/dimensions.htm",
+		"/C/Users/Bill/Desktop/tuts+ HTML/index.html",
+		"/C/Users/Bill/Desktop/rouxconapp123/index.php",
+		"/C/Users/Bill/Desktop/thai_movers/index-copy.html",
+		"/C/Users/Bill/Desktop/thai_movers/index_bootswitch.html",
+		"/C/Users/Bill/Desktop/thai_movers/_/css/bootstrap-theme.min.css",
+		"/C/Users/Bill/Desktop/thai_movers/img/logo2.jpg",
+		"/C/Users/Bill/Desktop/tuts+ HTML/css/style.css",
+		"/C/Users/Bill/Desktop/thai_movers/index-v1.html",
+		"/C/Users/Bill/Desktop/html_demo/index.html",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/User/Side Bar.sublime-settings",
+		"/C/Users/Bill/Desktop/thai_movers/index-draft.html",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/User/Chrome.sublime-build",
+		"/C/Users/Bill/Desktop/transpo_logistics/index.html",
+		"/C/Users/Bill/Desktop/Bootstrap/index.html",
+		"/C/Users/Bill/Desktop/Bootstrap2/js/respond.js",
+		"/C/Users/Bill/Desktop/Bootstrap/css/custom.css",
+		"/C/Users/Bill/Desktop/rouxconapp123/about.php",
+		"/C/Users/Bill/Desktop/JSM Summer 2014",
+		"/C/Users/Bill/Desktop/rouxconapp123/Rouxconappp Git Data",
+		"/D/Lynda/Lynda. Bootstrap 3. Advanced Web Development/Exercise Files/02_01/finished/rouxconferenceapp/index.php",
+		"/D/Lynda/Lynda. Bootstrap 3. Advanced Web Development/Exercise Files/02_02/finished/rouxconferenceapp/index.php",
+		"/D/Lynda/Lynda. Bootstrap 3. Advanced Web Development/Exercise Files/02_01/working folder/rouxconferenceapp/index.php",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Bill/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Bill/Desktop/Bootstrap/05_03.html",
+		"/C/Users/Bill/Desktop/Bootstrap/05_02.html",
+		"/C/Users/Bill/Desktop/Bootstrap/05_01.html",
+		"/C/Users/Bill/Desktop/Bootstrap/04_03.html",
+		"/C/Users/Bill/Desktop/Bootstrap/04_02.html",
+		"/C/Users/Bill/Desktop/Bootstrap/04_01.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_08.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_07.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_06.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_05.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_04.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_03.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_02.html",
+		"/C/Users/Bill/Desktop/Bootstrap/03_01.html",
+		"/C/Users/Bill/Desktop/Bootstrap/02_06.html",
+		"/C/Users/Bill/Desktop/Bootstrap/02_05.html",
+		"/C/Users/Bill/Desktop/Bootstrap/02_04.html",
+		"/C/Users/Bill/Desktop/Bootstrap/02_03.html",
+		"/C/Users/Bill/Desktop/Bootstrap/02_02.html",
+		"/C/Users/Bill/Desktop/Bootstrap/js/respond.js",
+		"/C/Users/Bill/Desktop/Test",
+		"/C/Users/Bill/Desktop/Python/Copy - whileloop.py",
+		"/D/Sites/simple_cms/config/database.yml",
+		"/D/Sites/simple_cms/Gemfile"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"header {",
+			"header",
+			"page-header",
+			"dropdown-header",
+			"background-color",
+			"navbar-brand",
+			"navbar-right",
+			"navbar",
+			".body",
+			"navbar-fixed-top",
+			".container",
+			"container",
+			"before",
+			":before",
+			"font-family",
+			"div",
+			"ol",
+			"ul",
+			"l",
+			"container",
+			"font-family",
+			"menu",
+			".menu-parent",
+			".menu-item-products",
+			"menu-parents",
+			"mobile-nav",
+			"page-home",
+			"header",
+			"font-family",
+			"font",
+			"body"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5565,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3208,
+								3208
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1022.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								174,
+								174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_/css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109348,
+								109348
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 68668.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_/css/custom2.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4147,
+								4147
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 3318.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_/css/custom3.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6737,
+								6743
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5208.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "index3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7166,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2847,
+								2847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "thaiMovers.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 144.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
