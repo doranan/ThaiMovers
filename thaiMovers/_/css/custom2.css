@@ -253,11 +253,11 @@ div {
 
 .header-background {
 	width: 100%;
+	background-image: url("../thaiMovers/img/background-1.jpg");
+	background-repeat: no-repeat;
+	margin:0x auto;
 	position: relative;
-	
-	
 }
-
 
 .img-box-4 .img-box-4-item {
 	max-width: 260px;
@@ -321,16 +321,6 @@ div {
 	max-width: 900px;
 }
 
-.page-content{
-	background-color: #fff;
-}
-
-.page-column-1{
-	width: 100%;
-	margin-left: 100px;
-	margin-top: 1%;
-}
-
 #phone {
 	color: red;
 }
@@ -377,8 +367,13 @@ div {
 	width:100%;
 }
 
+.section-services-buttons {
+	position: absolute;
+	bottom: 12px;
+}
+
 .section-services .caption {
-	min-height: 280px;
+	height: 280px;
 }
 
 .section-services .container {
@@ -531,7 +526,6 @@ div {
 	font-size: 32px;
 }
 
-
 .img-container{
 	position:absolute;
 	top: 150px;
@@ -598,30 +592,3 @@ div {
     margin: 0 auto;
     border-radius: 100px;
 }
-
-
-
-.box {
-border-radius: 0.3em;
-border-width: 1px;
-border-style: solid;
-border-color: #888;
-border-color: rgba(0, 0, 0, 0.3);
--webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2);
-color: #444;
-color: rgba(0, 0, 0, 0.8);
-padding: 1.42857em;
-margin: 0 0 1.5em 0;
-}
-
-
-.section-services-buttons {
-	position: absolute;
-	bottom: 12px;
-}
-
-.section-services .caption {
-	height: 280px;
-}
-
